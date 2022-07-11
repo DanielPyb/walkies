@@ -4,9 +4,9 @@ This is a super simple random number generator app that is supposed to help me g
 
 ## Description
 
-This was made for fun so that i could have a random set number of steps to walk that day. It's obviously rigged as you cannot get under 10 000 because why would you?
-
+This was made for fun so that i could have a random set number of steps to walk that day.
 :musical_score:
+there are 4 different "levels" to this, 5-10k, 8-12k 10-15k and 0-25k
 
 ## Built With
 
@@ -15,6 +15,14 @@ This was created with
 - HTML
 - CSS
 - JavaScript
+
+###
+
+Created to practice these JavaScript concepts
+- Switch cases
+- event
+- forEach
+
 
 ## Getting Started
 
