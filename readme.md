@@ -18,11 +18,12 @@ This was created with
 
 ###
 
-Created to practice these JavaScript concepts
+Created with these JavaScript concepts
 - Switch cases
-- event
+- e.taget
 - forEach
-
+- push
+- LocalStorage
 
 ## Getting Started
 
