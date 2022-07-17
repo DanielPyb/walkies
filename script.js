@@ -27,7 +27,7 @@ buttons.forEach(btns => btns.addEventListener("click", (e)=>{
         button.classList.remove("active"));
     switch (targetValue){
         default:
-            info.innerHTML = "5k - 10k perfect for beginning";
+            info.innerHTML = "5k - 10k perfect for beginners";
             e.target.classList.add("active");
             return lvl = 1;
             break;
