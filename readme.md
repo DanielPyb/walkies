@@ -37,7 +37,7 @@ git clone https://github.com/DanielPyb/walkies.git
 ```
 
 ### Check out the livesite
-[Walkies](https://kodeblokk.com/Walkies/index.html)
+[Walkies](https://walkiesbeta.netlify.app/)
 
 ## Contact
 
