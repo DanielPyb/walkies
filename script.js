@@ -77,25 +77,25 @@ clicker.addEventListener("click", (e)=>{
         case 1:
             walkDistance = Math.floor(Math.random() * 5000) + 5001;
             tracker.innerHTML = walkDistance;
-            Walkers.listFormerWalks.push(walkDistance);
+            Walkers.listFormerWalks.unshift(walkDistance);
             break;
         case 2:
             walkDistance = Math.floor(Math.random() * 4000) + 8001;
             tracker.innerHTML = walkDistance;
-            Walkers.listFormerWalks.push(walkDistance);
+            Walkers.listFormerWalks.unshift(walkDistance);
             break;
         case 3:
             walkDistance = Math.floor(Math.random() * 5000) + 10001;
             tracker.innerHTML = walkDistance;
-            Walkers.listFormerWalks.push(walkDistance);
+            Walkers.listFormerWalks.unshift(walkDistance);
             break;
         case 4:
             walkDistance = Math.floor(Math.random() * 25000) + 1;
             tracker.innerHTML = walkDistance;
-            Walkers.listFormerWalks.push(walkDistance);
+            Walkers.listFormerWalks.unshift(walkDistance);
             break;
     }
-    Walkers.dateList.push(date);
+    Walkers.dateList.unshift(date);
     localStorage.setItem("Walkers", JSON.stringify(Walkers));
     newQuote();
     newWalk();
